@@ -1,0 +1,8 @@
+make all --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/thebest/clib'
+mkdir -p output
+gcc -Wall -Wextra -g -fPIC -std=c99 -Iinclude -c src/string.c  -o src/string.o
+gcc -shared -Wall -Wextra -g -fPIC -std=c99 -Iinclude -o output/libclib.so src/string.o  -Llib
+echo Executing 'all' complete!
+make: Leaving directory '/home/thebest/clib'
+ 
