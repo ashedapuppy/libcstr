@@ -1,0 +1,102 @@
+\hypertarget{clib_8h}{}\doxysection{include/clib.h File Reference}
+\label{clib_8h}\index{include/clib.h@{include/clib.h}}
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$unistd.\+h$>$}\newline
+{\ttfamily \#include $<$limits.\+h$>$}\newline
+Include dependency graph for clib.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=279pt]{clib_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=161pt]{clib_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{clib_8h_a8275fceddd7c671647c799d7b6b575a6}\label{clib_8h_a8275fceddd7c671647c799d7b6b575a6}} 
+typedef struct \mbox{\hyperlink{structstring__s}{string\+\_\+s}} \mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}}
+\begin{DoxyCompactList}\small\item\em Defining a new type called {\ttfamily string\+\_\+t} that is a pointer to a struct called {\ttfamily \mbox{\hyperlink{structstring__s}{string\+\_\+s}}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{clib_8h_a23e82c8c6777b975ffd296c74b813824}{len\+\_\+str}} (char $\ast$str)
+\item 
+int \mbox{\hyperlink{clib_8h_a4d1a3ff0f9291dc687353b1b60a9a09b}{len\+\_\+string}} (\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$any)
+\item 
+void \mbox{\hyperlink{clib_8h_a6711217fbc520c0266627e905639f8ce}{free\+\_\+string}} (\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$any)
+\item 
+\mbox{\Hypertarget{clib_8h_acad616c74b35d73c1abbcff8ca5590dd}\label{clib_8h_acad616c74b35d73c1abbcff8ca5590dd}} 
+\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$ {\bfseries new\+\_\+string\+\_\+t\+\_\+from\+\_\+str} (char $\ast$str)
+\item 
+\mbox{\Hypertarget{clib_8h_a87c570692d14519b90f0518572fb4daa}\label{clib_8h_a87c570692d14519b90f0518572fb4daa}} 
+\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$ {\bfseries new\+\_\+string\+\_\+t\+\_\+of\+\_\+len} (int len)
+\item 
+\mbox{\Hypertarget{clib_8h_ac2a261a0ebc2f9c6675438fd2d0c7401}\label{clib_8h_ac2a261a0ebc2f9c6675438fd2d0c7401}} 
+\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$ {\bfseries concat\+\_\+string\+\_\+ts} (\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$a, \mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$b)
+\item 
+\mbox{\Hypertarget{clib_8h_a6ff751670f7f081fa9df2ee68ef37ab2}\label{clib_8h_a6ff751670f7f081fa9df2ee68ef37ab2}} 
+\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$ {\bfseries concat\+\_\+string\+\_\+ts\+\_\+consume} (\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$a, \mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$b)
+\item 
+\mbox{\Hypertarget{clib_8h_a74dcdef42c0db9e8c33a7c0646861e4a}\label{clib_8h_a74dcdef42c0db9e8c33a7c0646861e4a}} 
+ssize\+\_\+t {\bfseries write\+\_\+string\+\_\+t} (int fd, \mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$any)
+\item 
+\mbox{\Hypertarget{clib_8h_a54da757b3f4ffb7bc5e8179ca0528476}\label{clib_8h_a54da757b3f4ffb7bc5e8179ca0528476}} 
+\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$ {\bfseries read\+\_\+string\+\_\+t} (int fd)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{clib_8h_a6711217fbc520c0266627e905639f8ce}\label{clib_8h_a6711217fbc520c0266627e905639f8ce}} 
+\index{clib.h@{clib.h}!free\_string@{free\_string}}
+\index{free\_string@{free\_string}!clib.h@{clib.h}}
+\doxysubsubsection{\texorpdfstring{free\_string()}{free\_string()}}
+{\footnotesize\ttfamily void free\+\_\+string (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$}]{any }\end{DoxyParamCaption})}
+
+It frees the memory allocated for the string and then frees the memory allocated for the string\+\_\+t struct
+
+
+\begin{DoxyParams}{Parameters}
+{\em any} & The string\+\_\+t object to free. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{clib_8h_a23e82c8c6777b975ffd296c74b813824}\label{clib_8h_a23e82c8c6777b975ffd296c74b813824}} 
+\index{clib.h@{clib.h}!len\_str@{len\_str}}
+\index{len\_str@{len\_str}!clib.h@{clib.h}}
+\doxysubsubsection{\texorpdfstring{len\_str()}{len\_str()}}
+{\footnotesize\ttfamily int len\+\_\+str (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+It returns the length of a string
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & The string to be measured.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The length of the string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{clib_8h_a4d1a3ff0f9291dc687353b1b60a9a09b}\label{clib_8h_a4d1a3ff0f9291dc687353b1b60a9a09b}} 
+\index{clib.h@{clib.h}!len\_string@{len\_string}}
+\index{len\_string@{len\_string}!clib.h@{clib.h}}
+\doxysubsubsection{\texorpdfstring{len\_string()}{len\_string()}}
+{\footnotesize\ttfamily int len\+\_\+string (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{clib_8h_a8275fceddd7c671647c799d7b6b575a6}{string\+\_\+t}} $\ast$}]{any }\end{DoxyParamCaption})}
+
+It returns the length of a string
+
+
+\begin{DoxyParams}{Parameters}
+{\em any} & The string to get the length of.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The length of the string. 
+\end{DoxyReturn}

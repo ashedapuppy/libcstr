@@ -1,0 +1,19 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-Wall",
+            "-Wextra",
+            "-g",
+            "-fPIC",
+            "-std=c99",
+            "-Iinclude",
+            "-o",
+            "src/string.o",
+            "src/string.c"
+        ],
+        "directory": "/home/thebest/clib",
+        "file": "src/string.c"
+    }
+]

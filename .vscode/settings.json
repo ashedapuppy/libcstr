@@ -1,3 +1,7 @@
 {
-  "docwriter.style": "Doxygen"
+  "sonarlint.pathToCompileCommands": "/home/thebest/clib/compile_commands.json",
+  "docwriter.style": "Doxygen",
+  "docwriter.progress.trackFunctions": true,
+  "docwriter.progress.trackTypes": true,
+  "docwriter.language": "English"
 }
