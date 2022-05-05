@@ -26,7 +26,7 @@ INCLUDE	:= include
 # define lib directory
 LIB		:= lib
 
-MAIN	:= libclib.so
+MAIN	:= libcstr.so
 SOURCEDIRS	:= $(shell find $(SRC) -type d)
 INCLUDEDIRS	:= $(shell find $(INCLUDE) -type d)
 LIBDIRS		:= $(shell find $(LIB) -type d)

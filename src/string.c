@@ -1,6 +1,6 @@
 /// @file string.c
 
-#include "clib.h"
+#include "libcstr.h"
 
 #define READ_BUFFER_SIZE 1024
 
@@ -15,7 +15,7 @@
 struct string_s {
 	size_t len;
 	char *str;
-	string_s *next;
+	struct string_s *next;
 };
 
 /**

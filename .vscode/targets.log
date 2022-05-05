@@ -5,8 +5,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Wed May  4 11:48:02 2022
+# Make data base, printed on Thu May  5 21:59:16 2022
 
 # Variables
 
@@ -45,7 +46,7 @@ _ = /mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/code
 # makefile (from 'Makefile', line 10)
 CFLAGS := -Wall -Wextra -g -fPIC -std=c99
 # environment
-STARSHIP_SESSION_KEY = 1551150824112293
+STARSHIP_SESSION_KEY = 2887325873163293
 # 'override' directive
 GNUMAKEFLAGS := 
 # makefile (from 'Makefile', line 44)
@@ -57,7 +58,7 @@ VSCODE_CWD = /mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/thebest/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/home/thebest/.nvm/versions/node/v18.0.0/bin:/home/thebest/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin
+PATH = /home/thebest/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/home/thebest/.nvm/versions/node/v18.0.0/bin:/home/thebest/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Windows/system32/config/systemprofile/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/admin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin:/home/thebest/.local/bin/
 # makefile (from 'Makefile', line 35)
 MD := mkdir -p
 # makefile (from 'Makefile', line 1)
@@ -69,7 +70,7 @@ LIBDIRS := lib
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-10a0520a-cc8f-4592-904e-86047051d2bb.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-dfe32dc9-ddfe-4968-ab2f-9301094d371c.sock
 # makefile (from 'Makefile', line 27)
 LIB := lib
 # default
@@ -81,13 +82,13 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /home/thebest/clib
 # makefile (from 'Makefile', line 55)
-OUTPUTMAIN := output/libclib.so
+OUTPUTMAIN := output/libcstr.so
 # default
 .LOADED := 
 # environment
 WSL_INTEROP = /run/WSL/9_interop
 # environment
-WT_SESSION = cf7de2fd-cac2-46a3-a839-ed288e90d795
+WT_SESSION = f5e59ee0-5665-42fe-987f-80c65a828466
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -95,7 +96,7 @@ HOME = /home/thebest
 # environment
 LOGNAME = thebest
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 NVM_CD_FLAGS = -q
 # makefile (from 'Makefile', line 31)
@@ -151,7 +152,7 @@ MFLAGS = -pqrR
 # environment
 NVM_DIR = /home/thebest/.nvm
 # makefile (from 'Makefile', line 29)
-MAIN := libclib.so
+MAIN := libcstr.so
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -201,10 +202,10 @@ STARSHIP_SHELL = zsh
 
 # Directories
 
-# . (device 2064, inode 307809): 11 files, no impossibilities.
+# . (device 2064, inode 307809): 14 files, no impossibilities.
 # src (device 2064, inode 308008): 4 files, no impossibilities.
 
-# 15 files, no impossibilities in 2 directories.
+# 18 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -212,34 +213,7 @@ STARSHIP_SHELL = zsh
 
 # Files
 
-libclib.so: src/string.o
-#  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
-#  File does not exist.
-#  File has been updated.
-#  Needs to be updated (-q is set).
-# automatic
-# @ := libclib.so
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := src/string.o
-# automatic
-# | := 
-# automatic
-# < := src/string.o
-# automatic
-# ^ := src/string.o
-# automatic
-# ? := src/string.o
-# variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
-#  recipe to execute (from 'Makefile', line 64):
-	$(CC) -shared $(CFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
-
-all: output libclib.so
+all: output libcstr.so
 #  Command line target.
 #  Implicit rule search has not been done.
 #  File does not exist.
@@ -264,7 +238,7 @@ all: output libclib.so
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-04 11:04:00.454267006
+#  Last modified 2022-05-05 21:59:05.627417663
 #  File has been updated.
 #  Successfully updated.
 
@@ -281,9 +255,37 @@ Makefile:
 #  Modification time never checked.
 #  File has not been updated.
 
+libcstr.so: src/string.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := libcstr.so
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := src/string.o
+# automatic
+# | := 
+# automatic
+# < := src/string.o
+# automatic
+# ^ := src/string.o
+# automatic
+# ? := src/string.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/18=11%
+#  recipe to execute (from 'Makefile', line 64):
+	$(CC) -shared $(CFLAGS) $(INCLUDES) -o $(OUTPUTMAIN) $(OBJECTS) $(LFLAGS) $(LIBS)
+
 run: all
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 80):
 	./$(OUTPUTMAIN)
@@ -302,14 +304,13 @@ clean:
 # Not a target:
 src/string.o:
 #  Implicit rule search has been done.
- 
-#  Last modified 2022-05-04 11:47:06.754271684
+#  Last modified 2022-05-04 12:24:49.354275777
 #  File has been updated.
 #  Successfully updated.
 
 output:
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-04 11:47:06.804271684
+#  Last modified 2022-05-04 12:24:49.394275777
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 61):
@@ -323,12 +324,12 @@ output:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 202 B / avg = 8 B
-# current buf: size = 8162 B / used = 202 B / count = 24 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 229 B / avg = 8 B
+# current buf: size = 8162 B / used = 229 B / count = 27 / avg = 8 B
 
-# strcache performance: lookups = 45 / hit rate = 46%
+# strcache performance: lookups = 48 / hit rate = 43%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=2/45=4%
-# Finished Make data base on Wed May  4 11:48:02 2022
+# Load=27/8192=0%, Rehash=0, Collisions=2/48=4%
+# Finished Make data base on Thu May  5 21:59:16 2022
 
  

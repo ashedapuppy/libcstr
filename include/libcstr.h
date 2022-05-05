@@ -1,7 +1,6 @@
 /// @file clib.h
-
-#ifndef CLIB_H
-#define CLIB_H
+#ifndef LIBCSTR_H
+#define LIBCSTR_H
 
 #include <stdlib.h>
 #include <unistd.h>
@@ -20,4 +19,5 @@ string_t *concat_string_ts_consume(string_t *a, string_t *b);
 ssize_t write_string_t(int fd, string_t *any);
 string_t *read_string_t(int fd);
 
-#endif // CLIB_H
+
+#endif // LIBCSTR_H
