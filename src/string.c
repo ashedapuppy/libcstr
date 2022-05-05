@@ -162,7 +162,7 @@ ssize_t write_string(int fd, string_t *any) {
 ssize_t write_string_list(int fd, string_t *any) {
 	ssize_t len;
 	ssize_t add;
-	while (any->next != NULL && len != -1) {
+	while (any->next != NULL) {
 		len = 0;
 		add = 0;
 		// Writing the string to the file descriptor, and then checking if the write function
